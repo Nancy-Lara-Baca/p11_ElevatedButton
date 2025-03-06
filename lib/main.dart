@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("ElevatedButton"),
-          titleTextStyle: TextStyle(color: Colors.black, fontSize: 20),
+          titleTextStyle: TextStyle(color: Color(0xffffffff), fontSize: 20),
           centerTitle: true,
           backgroundColor: Color(0xFFA03D20),
         ),
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 16), // Espacio entre el texto y los botones
-              _buildMainButton("lightstream", Icons.lightbulb),
+              _buildMainButton("Lightstream", Icons.lightbulb),
               _buildNextButton(),
               SizedBox(height: 16),
               _buildIconButton("Home", Icons.home),
@@ -55,11 +55,11 @@ class MyApp extends StatelessWidget {
       height: 50,
       child: ElevatedButton.icon(
         onPressed: () {},
-        icon: Icon(icon, color: Colors.black),
+        icon: Icon(icon, color: Color(0xffffffff)),
         label: Text(
           text,
           style: TextStyle(
-            color: Colors.black,
+            color: Color(0xffffffff),
             fontSize: 16,
           ),
         ),
@@ -80,11 +80,11 @@ class MyApp extends StatelessWidget {
       height: 50,
       child: ElevatedButton.icon(
         onPressed: () {},
-        icon: Icon(icon, color: Colors.black),
+        icon: Icon(icon, color: Color(0xffffffff)),
         label: Text(
           text,
           style: TextStyle(
-            color: Colors.black,
+            color: Color(0xffffffff),
             fontSize: 16,
           ),
         ),
